@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Calendar, User } from "lucide-react";
+import { Link } from "wouter";
 
 /**
  * Blog Section
@@ -142,10 +143,12 @@ export default function Blog() {
                 </div>
 
                 {/* Read More Link */}
-                <button className="flex items-center gap-2 text-white hover:text-blue-200 font-semibold text-sm transition-colors">
-                  Leer Más
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                <Link href={`/blog/${post.id}`}>
+                  <button className="flex items-center gap-2 text-white hover:text-blue-200 font-semibold text-sm transition-colors">
+                    Leer Más
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </Link>
               </div>
             </Card>
           ))}

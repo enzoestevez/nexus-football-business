@@ -10,6 +10,8 @@ import AdminLogin from "./pages/AdminLogin";
 import AdminPanel from "./pages/AdminPanel";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import BlogArticles from "./pages/BlogArticles";
+import BlogDetail from "./pages/BlogDetail";
 
 
 function Router() {
@@ -17,6 +19,8 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/jugadores"} component={Players} />
+      <Route path={"/blog"} component={BlogArticles} />
+      <Route path={"/blog/:id"} component={BlogDetail} />
       <Route path={"/admin-login"} component={AdminLogin} />
       <Route path={"/admin"} component={AdminPanel} />
       <Route path={"/privacy"} component={PrivacyPolicy} />
