@@ -14,7 +14,7 @@ export default function Hero() {
       id="inicio"
       className="relative text-white py-20 md:py-32 overflow-hidden"
       style={{
-        backgroundImage: 'url(/manus-storage/nexus_premium_banner_a65c3acf.png)',
+        backgroundImage: 'url(/nexus_premium_banner.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

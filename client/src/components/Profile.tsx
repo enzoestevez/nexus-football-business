@@ -13,7 +13,7 @@ const professionals = [
   {
     name: "Dr. Alberto José Estevez",
     specialty: "Abogado",
-    photo: "/manus-storage/WhatsAppImage2026-05-18at11.15.14_cec8dfa8.jpeg",
+    photo: "/dr-alberto.jpg",
     fullInfo: [
       "Ex futbolista profesional con trayectoria en el fútbol argentino, que complementa su experiencia de campo con formación académica de alto nivel.",
       "Abogado especializado en Derecho Deportivo con profundo conocimiento en contratos de transferencia, protección de derechos laborales e imagen, y negociaciones comerciales en el ámbito deportivo.",
@@ -25,7 +25,7 @@ const professionals = [
   {
     name: "Lic. Felipe Alberto Acuña Pietroniro",
     specialty: "Licenciado en Administración de Empresas y Marketing",
-    photo: "/manus-storage/WhatsAppImage2026-05-21at09.25.02_af593d93.jpeg",
+    photo: "/felipe-pietroniro.jpg",
     fullInfo: [
       "Master en Dirección de Entidades Deportivas con amplia experiencia en acuerdos comerciales complejos, transferencias internacionales y estrategia de posicionamiento en mercados competitivos.",
       "Su especialidad radica en maximizar el valor de cada transacción, protegiendo los intereses de nuestros clientes a través de negociaciones estratégicas.",
@@ -57,13 +57,11 @@ function ProfessionalCard({ professional }: { professional: typeof professionals
           className="absolute w-full h-full bg-[#001F3F] border-2 border-primary/20 rounded-xl p-8 flex flex-col items-center justify-center text-center shadow-lg hover:shadow-xl transition-shadow"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <div className="w-32 h-32 mb-6 rounded-full overflow-hidden border-4 border-white shadow-lg">
-            {professional.photo.includes('/') ? (
-              <img src={professional.photo} alt={professional.name} className="w-full h-full object-cover" />
-            ) : (
-              <div className="text-6xl flex items-center justify-center h-full bg-white/10">{professional.photo}</div>
-            )}
-          </div>
+          <img
+            src={professional.photo}
+            alt={professional.name}
+            className="w-32 h-32 rounded-full object-cover border-4 border-white mb-6 shadow-lg"
+          />
           <h3 className="text-2xl font-bold text-white mb-2">
             {professional.name}
           </h3>

@@ -70,7 +70,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/manus-storage/nexus-logo_6338922f.png"
+            src="/nexus-logo.png"
             alt="Nexus Football & Business"
             className={`${isScrolled ? "h-8" : "h-10"} w-auto transition-all duration-300`}
           />
