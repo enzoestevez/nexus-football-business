@@ -152,7 +152,7 @@ export default function Profile() {
               <div>
                 <p className="font-bold text-foreground mb-1">Auditoría Fisica Especializada</p>
                 <p className="text-sm text-muted-foreground">
-                  Puesta a punto, pretemporadas, recuperacion de lesiones.
+                  Puesta a punto, pretemporadas.
                 </p>
               </div>
             </div>

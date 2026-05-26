@@ -27,7 +27,7 @@ const services = [
     icon: Heart,
     title: "Aptitud Física y Psicológica",
     description:
-      "Revisión física para prevención de lesiones y sesión psicológica para asegurar que llegues en óptimas condiciones a tu próximo club.",
+      "Revisión física y sesión psicológica para asegurar que llegues en óptimas condiciones a tu próximo club.",
     highlights: ["Evaluación", "Prevención", "Seguimiento"],
   },
 ];

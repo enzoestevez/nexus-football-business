@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link, useParams } from "wouter";
 import { Calendar, User, ArrowLeft } from "lucide-react";
+import { useEffect } from "react";
 
 /**
  * Blog Detail Page
@@ -183,6 +184,11 @@ export default function BlogDetail() {
   const postId = parseInt(params.id as string);
   const post = blogPosts.find((p) => p.id === postId);
 
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [postId]);
+
   if (!post) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -198,10 +204,15 @@ export default function BlogDetail() {
     );
   }
 
+  // Scroll to top when post changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [post.id]);
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" id="blog-top">
       {/* Header */}
-      <header className="bg-primary text-white py-12 md:py-16">
+      <header className="bg-primary text-white py-12 md:py-16" id="blog-header">
         <div className="container mx-auto px-4">
           <Link href="/blog">
             <Button variant="ghost" className="text-white mb-6 hover:bg-white/20">
@@ -209,8 +220,8 @@ export default function BlogDetail() {
               Volver al Blog
             </Button>
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
-          <div className="flex flex-wrap gap-6 text-white/90">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
+          <div className="flex flex-wrap gap-4 sm:gap-6 text-white/90 text-sm sm:text-base">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5" />
               <span>{post.date}</span>
@@ -225,26 +236,26 @@ export default function BlogDetail() {
       </header>
 
       {/* Content */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24" id="blog-content">
         <div className="container mx-auto px-4 max-w-3xl">
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-sm sm:prose md:prose-lg max-w-none">
             <div
-              className="text-foreground leading-relaxed space-y-6"
+              className="text-foreground leading-relaxed space-y-4 sm:space-y-6 text-sm sm:text-base"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </article>
 
           {/* CTA Section */}
-          <div className="mt-16 p-8 bg-primary/10 border border-primary/20 rounded-lg">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mt-12 sm:mt-16 p-6 sm:p-8 bg-primary/10 border border-primary/20 rounded-lg">
+            <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4">
               ¿Necesitas asesoría profesional?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground mb-6 text-sm sm:text-base">
               Nuestro equipo de expertos en derecho deportivo, gestión técnica y negociaciones 
               está listo para ayudarte en tu carrera profesional.
             </p>
             <Link href="/#contacto">
-              <Button className="bg-primary hover:bg-primary/90 text-white font-bold py-3 px-8">
+              <Button className="bg-primary hover:bg-primary/90 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 text-sm sm:text-base">
                 Contactar Ahora
               </Button>
             </Link>
@@ -254,3 +265,5 @@ export default function BlogDetail() {
     </div>
   );
 }
+
+

@@ -12,11 +12,12 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative text-white py-20 md:py-32 overflow-hidden"
+      className="relative text-white py-12 sm:py-16 md:py-32 overflow-hidden"
       style={{
         backgroundImage: 'url(/nexus_premium_banner.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
       }}
     >
       {/* Dark overlay for text readability */}
@@ -28,11 +29,11 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
             El Nexo estratégico entre tu talento y el exito profesional
           </h1>
 
-          <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-white/90 mb-6 sm:mb-8 leading-relaxed">
             Asesoría legal y técnica integral para futbolistas, Directores Técnicos y clubes. 
             Transformamos el talento en carreras profesionales sostenibles a través 
             de una gestión especializada.
@@ -65,18 +66,18 @@ export default function Hero() {
           </div>
 
           {/* Trust indicators */}
-          <div className="mt-12 pt-8 border-t border-white/20 flex flex-col sm:flex-row gap-8">
+          <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-white/20 flex flex-col sm:flex-row gap-6 sm:gap-8">
             <div>
-              <p className="text-sm text-white/70 uppercase tracking-wide">Especialización</p>
-              <p className="text-xl font-bold"></p>
+              <p className="text-xs sm:text-sm text-white/70 uppercase tracking-wide">Especialización</p>
+              <p className="text-lg sm:text-xl font-bold"></p>
             </div>
             <div>
-              <p className="text-sm text-white/70 uppercase tracking-wide">Formación</p>
-              <p className="text-xl font-bold"></p>
+              <p className="text-xs sm:text-sm text-white/70 uppercase tracking-wide">Formación</p>
+              <p className="text-lg sm:text-xl font-bold"></p>
             </div>
             <div>
-              <p className="text-sm text-white/70 uppercase tracking-wide">Enfoque</p>
-              <p className="text-xl font-bold"></p>
+              <p className="text-xs sm:text-sm text-white/70 uppercase tracking-wide">Enfoque</p>
+              <p className="text-lg sm:text-xl font-bold"></p>
             </div>
           </div>
         </div>
