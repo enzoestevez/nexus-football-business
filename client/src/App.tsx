@@ -5,9 +5,6 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import Players from "./pages/Players";
-import AdminLogin from "./pages/AdminLogin";
-import AdminPanel from "./pages/AdminPanel";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import BlogArticles from "./pages/BlogArticles";
@@ -18,11 +15,8 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
-      <Route path={"/jugadores"} component={Players} />
       <Route path={"/blog"} component={BlogArticles} />
       <Route path={"/blog/:id"} component={BlogDetail} />
-      <Route path={"/admin-login"} component={AdminLogin} />
-      <Route path={"/admin"} component={AdminPanel} />
       <Route path={"/privacy"} component={PrivacyPolicy} />
       <Route path={"/terms"} component={TermsAndConditions} />
       <Route path={"/404"} component={NotFound} />
@@ -36,6 +30,8 @@ function Router() {
 // - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
 //   to keep consistent foreground/background color across components
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+// - Admin routes removed: /admin, /admin-login
+// - Players route removed: /jugadores
 
 function App() {
   return (

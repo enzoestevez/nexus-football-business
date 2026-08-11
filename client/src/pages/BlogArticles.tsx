@@ -6,10 +6,10 @@ import { Calendar, User, ArrowLeft } from "lucide-react";
 
 /**
  * Blog Articles Page
- * Design: Minimalismo Legal Corporativo
- * - Galería completa de artículos del blog
- * - Artículos sobre derecho deportivo, transferencias, auditoría médica
- * - Información valiosa para futbolistas y clubes
+ * Design: hub editorial alineado con la consultoría integral.
+ * - Tono institucional consistente con la home
+ * - Tarjetas claras, legibles y ordenadas para móvil
+ * - Navegación directa a artículos individuales
  */
 
 interface BlogPost {
@@ -28,7 +28,7 @@ const blogPosts: BlogPost[] = [
     id: 1,
     title: "Cláusulas Esenciales en Contratos de Transferencia",
     excerpt:
-      "Conoce las cláusulas fundamentales que debes revisar antes de firmar tu contrato de transferencia. Protege tus intereses con asesoría legal especializada.",
+      "Conoce las cláusulas fundamentales que debes revisar antes de firmar tu contrato de transferencia. Protege tus intereses con criterio jurídico especializado.",
     content: `
       <h2>Cláusulas Esenciales en Contratos de Transferencia</h2>
       
@@ -44,11 +44,11 @@ const blogPosts: BlogPost[] = [
       <p>Especifica la duración del contrato. Negocia términos que te permitan estabilidad pero también flexibilidad para tu carrera.</p>
       
       <h3>4. Cláusula de Salario y Beneficios</h3>
-      <p>Detalla tu remuneración, bonificaciones por desempeño, y otros beneficios. Asegúrate de que todo esté claramente especificado.</p>
+      <p>Detalla tu remuneración, bonificaciones por desempeño y otros beneficios. Asegúrate de que todo esté claramente especificado.</p>
       
       <p>En Nexus Fútbol & Business, nuestro equipo legal especializado revisa cada cláusula para asegurar que tus intereses estén protegidos.</p>
     `,
-    category: "Derecho Deportivo",
+    category: "Consultoría legal",
     author: "Dr. Alberto José Estevez",
     date: "15 de Marzo, 2026",
     readTime: "5 min",
@@ -57,16 +57,16 @@ const blogPosts: BlogPost[] = [
     id: 2,
     title: "Evaluación Médica Previa: Prevención de Riesgos en Transferencias",
     excerpt:
-      "La auditoría radiológica completa es fundamental para garantizar que llegues en óptimas condiciones físicas a tu nuevo club. Descubre por qué es crucial.",
+      "La auditoría radiológica completa es una herramienta estratégica para anticipar riesgos y llegar a una negociación con mayor respaldo.",
     content: `
       <h2>Evaluación Médica Previa: Prevención de Riesgos en Transferencias</h2>
       
-      <p>Una evaluación médica completa antes de una transferencia es esencial para proteger tanto al futbolista como al club receptor. Esta auditoría radiológica integral previene problemas futuros y asegura que el jugador llega en óptimas condiciones.</p>
+      <p>Una evaluación médica completa antes de una transferencia es esencial para proteger tanto al futbolista como al club receptor. Esta auditoría radiológica integral previene problemas futuros y asegura que el jugador llegue en óptimas condiciones.</p>
       
-      <h3>¿Por Qué es Importante?</h3>
+      <h3>¿Por qué es importante?</h3>
       <p>Muchas transferencias fracasan debido a problemas médicos no detectados. Una evaluación completa evita sorpresas desagradables después de la firma.</p>
       
-      <h3>Componentes de la Evaluación</h3>
+      <h3>Componentes de la evaluación</h3>
       <ul>
         <li>Examen físico completo</li>
         <li>Radiografías y resonancias magnéticas</li>
@@ -75,9 +75,9 @@ const blogPosts: BlogPost[] = [
         <li>Análisis de antecedentes de lesiones</li>
       </ul>
       
-      <p>En Nexus Fútbol & Business, contamos con especialistas médicos que realizan evaluaciones exhaustivas para garantizar tu bienestar.</p>
+      <p>En Nexus Fútbol & Business, contamos con especialistas que realizan evaluaciones exhaustivas para dar mayor previsibilidad a cada operación.</p>
     `,
-    category: "Auditoría Médica",
+    category: "Rendimiento y salud",
     author: "Dr. Alberto José Estevez",
     date: "10 de Marzo, 2026",
     readTime: "4 min",
@@ -86,22 +86,22 @@ const blogPosts: BlogPost[] = [
     id: 3,
     title: "Estrategia Táctica en la Colocación de Futbolistas",
     excerpt:
-      "No todos los clubes son iguales. Aprende cómo elegir el contexto táctico más favorable para tu desarrollo profesional y maximizar tu potencial.",
+      "No todos los destinos ofrecen el mismo contexto. Aprende a leer compatibilidad táctica, entorno competitivo y proyección real.",
     content: `
       <h2>Estrategia Táctica en la Colocación de Futbolistas</h2>
       
-      <p>La elección del club correcto va más allá del salario. El contexto táctico, el estilo de juego del equipo y la filosofía del entrenador son factores cruciales para tu desarrollo profesional.</p>
+      <p>La elección del club correcto va mucho más allá del salario. El contexto táctico, el estilo de juego del equipo y la filosofía del entrenador son factores cruciales para el desarrollo profesional.</p>
       
-      <h3>Factores a Considerar</h3>
-      <p><strong>Sistema de Juego:</strong> ¿Se adapta tu posición y características al sistema del club?</p>
-      <p><strong>Estilo de Juego:</strong> ¿Coincide con tu forma de jugar?</p>
+      <h3>Factores a considerar</h3>
+      <p><strong>Sistema de juego:</strong> ¿Se adapta tu posición y tus características al sistema del club?</p>
+      <p><strong>Estilo de juego:</strong> ¿Coincide con tu forma de competir?</p>
       <p><strong>Competencia:</strong> ¿Cuál es el nivel de competencia en tu posición?</p>
-      <p><strong>Proyecto del Club:</strong> ¿Es un proyecto en crecimiento o en declive?</p>
+      <p><strong>Proyecto del club:</strong> ¿Es una estructura en crecimiento o en retroceso?</p>
       
-      <h3>Análisis Profesional</h3>
-      <p>Nuestro equipo técnico analiza cada oportunidad desde una perspectiva táctica para asegurar que el club elegido sea el más favorable para tu desarrollo.</p>
+      <h3>Análisis profesional</h3>
+      <p>Nuestro equipo analiza cada oportunidad desde una perspectiva táctica para que la decisión deportiva tenga coherencia y proyección.</p>
     `,
-    category: "Gestión Técnica",
+    category: "Gestión de carrera",
     author: "Dr. Alberto José Estevez",
     date: "5 de Marzo, 2026",
     readTime: "6 min",
@@ -110,22 +110,22 @@ const blogPosts: BlogPost[] = [
     id: 4,
     title: "Negociaciones Internacionales: Cómo Maximizar Tu Valor",
     excerpt:
-      "Descubre las estrategias clave para negociar transferencias internacionales. Conocimiento del mercado, timing y posicionamiento son fundamentales.",
+      "Timing, mercado y posicionamiento: las variables que más influyen cuando una oportunidad internacional debe convertirse en una decisión inteligente.",
     content: `
       <h2>Negociaciones Internacionales: Cómo Maximizar Tu Valor</h2>
       
-      <p>Las negociaciones internacionales son complejas y requieren estrategia, conocimiento del mercado y timing perfecto. Aquí te mostramos cómo maximizar tu valor en el mercado global.</p>
+      <p>Las negociaciones internacionales son complejas y requieren estrategia, conocimiento del mercado y timing. Una oportunidad importante necesita análisis para convertirse en una decisión valiosa.</p>
       
-      <h3>Estrategias Clave</h3>
-      <p><strong>Conocimiento del Mercado:</strong> Entender los valores de mercado en diferentes ligas es fundamental.</p>
-      <p><strong>Timing:</strong> El momento de la negociación puede significar la diferencia entre una buena y una excelente oferta.</p>
-      <p><strong>Posicionamiento:</strong> Cómo te posicionas ante los clubes interesados afecta directamente el resultado de la negociación.</p>
+      <h3>Estrategias clave</h3>
+      <p><strong>Conocimiento del mercado:</strong> entender valores y dinámicas de distintas ligas es fundamental.</p>
+      <p><strong>Timing:</strong> el momento de la negociación puede cambiar por completo el resultado.</p>
+      <p><strong>Posicionamiento:</strong> la forma en que un jugador o proyecto se presenta ante clubes e interesados impacta directamente en su valor.</p>
       
-      <h3>Nuestro Enfoque</h3>
-      <p>En Nexus Fútbol & Business, utilizamos análisis de mercado avanzado y estrategias de negociación probadas para maximizar tu valor en cada transferencia internacional.</p>
+      <h3>Nuestro enfoque</h3>
+      <p>En Nexus Fútbol & Business trabajamos con criterio comercial y lectura estratégica para fortalecer cada negociación.</p>
     `,
-    category: "Negociaciones",
-    author: "Felipe Manuel Alberto Acuña Pietroniro",
+    category: "Negocio deportivo",
+    author: "Lic. Felipe Alberto Acuña Pietroniro",
     date: "28 de Febrero, 2026",
     readTime: "7 min",
   },
@@ -133,22 +133,22 @@ const blogPosts: BlogPost[] = [
     id: 5,
     title: "Derechos de Imagen y Laborales en el Fútbol Profesional",
     excerpt:
-      "Protege tus derechos de imagen y laborales. Conoce la normativa vigente y cómo negociar términos favorables en tu contrato.",
+      "Entender la normativa vigente permite negociar mejor, proteger la carrera y evitar concesiones que afectan el valor del jugador a largo plazo.",
     content: `
       <h2>Derechos de Imagen y Laborales en el Fútbol Profesional</h2>
       
-      <p>Los derechos de imagen y laborales son aspectos cruciales de tu carrera profesional como futbolista. Es fundamental entender qué son, cómo protegerlos y cómo negociar términos favorables.</p>
+      <p>Los derechos de imagen y laborales son aspectos cruciales dentro de la carrera profesional de un futbolista. Comprender su alcance permite negociar con mayor claridad y proteger mejor el recorrido deportivo.</p>
       
-      <h3>Derechos de Imagen</h3>
-      <p>Incluyen el uso de tu nombre, foto, voz y semejanza con fines comerciales. Estos derechos tienen valor económico significativo.</p>
+      <h3>Derechos de imagen</h3>
+      <p>Incluyen el uso del nombre, la imagen, la voz y otros elementos de identidad con fines comerciales. Tienen valor económico y requieren tratamiento específico.</p>
       
-      <h3>Derechos Laborales</h3>
-      <p>Incluyen protección contra discriminación, derecho a un ambiente seguro, y protección de tu salario y beneficios.</p>
+      <h3>Derechos laborales</h3>
+      <p>Incluyen condiciones de trabajo, ambiente seguro, cumplimiento salarial y resguardo de beneficios pactados.</p>
       
-      <h3>Negociación Efectiva</h3>
-      <p>Negocia cláusulas que protejan tus derechos y maximicen tu valor comercial. Nuestro equipo legal te ayuda a entender y negociar estos términos.</p>
+      <h3>Negociación efectiva</h3>
+      <p>Negociar cláusulas con criterio jurídico ayuda a proteger la posición del jugador y a sostener su valor profesional y comercial.</p>
     `,
-    category: "Derecho Deportivo",
+    category: "Consultoría legal",
     author: "Dr. Alberto José Estevez",
     date: "20 de Febrero, 2026",
     readTime: "5 min",
@@ -157,24 +157,24 @@ const blogPosts: BlogPost[] = [
     id: 6,
     title: "Colocación de Jugadores Libres: Del Análisis a la Firma",
     excerpt:
-      "Proceso completo de colocación para jugadores sin club. Desde la evaluación integral hasta la negociación y firma del contrato.",
+      "Del diagnóstico al acuerdo final: una mirada completa sobre el proceso que necesita un futbolista libre para volver a competir con mejores condiciones.",
     content: `
       <h2>Colocación de Jugadores Libres: Del Análisis a la Firma</h2>
       
-      <p>Cuando un futbolista queda sin club, el proceso de colocación requiere un enfoque integral que combine evaluación profesional, marketing estratégico y negociación efectiva.</p>
+      <p>Cuando un futbolista queda sin club, el proceso de colocación necesita un enfoque integral que combine evaluación profesional, posicionamiento estratégico y negociación efectiva.</p>
       
-      <h3>Fase 1: Evaluación Integral</h3>
-      <p>Evaluamos tu perfil técnico, físico y psicológico. Identificamos tus fortalezas y áreas de mejora.</p>
+      <h3>Fase 1: evaluación integral</h3>
+      <p>Se analiza el perfil técnico, físico y competitivo para ordenar fortalezas, debilidades y oportunidades reales.</p>
       
-      <h3>Fase 2: Posicionamiento en el Mercado</h3>
-      <p>Creamos una estrategia de marketing para presentarte a los clubes interesados de la mejor manera posible.</p>
+      <h3>Fase 2: posicionamiento en el mercado</h3>
+      <p>Se construye una estrategia de presentación y acercamiento a instituciones que respondan al momento profesional del jugador.</p>
       
-      <h3>Fase 3: Negociación y Firma</h3>
-      <p>Negociamos los mejores términos posibles y aseguramos que el contrato proteja tus intereses.</p>
+      <h3>Fase 3: negociación y firma</h3>
+      <p>Se negocian condiciones, se revisan cláusulas y se busca que el acuerdo final tenga coherencia deportiva, legal y económica.</p>
       
-      <p>Nuestro equipo ha colocado exitosamente a decenas de futbolistas sin club en oportunidades profesionales valiosas.</p>
+      <p>El objetivo no es solo volver a competir, sino hacerlo en un contexto más favorable y sostenible.</p>
     `,
-    category: "Gestión de Carrera",
+    category: "Gestión de carrera",
     author: "Dr. Alberto José Estevez",
     date: "15 de Febrero, 2026",
     readTime: "8 min",
@@ -183,19 +183,17 @@ const blogPosts: BlogPost[] = [
 
 const getCategoryColor = (category: string) => {
   const colors: Record<string, string> = {
-    "Derecho Deportivo": "bg-blue-50 text-blue-700",
-    "Auditoría Médica": "bg-red-50 text-red-700",
-    "Gestión Técnica": "bg-green-50 text-green-700",
-    "Negociaciones": "bg-purple-50 text-purple-700",
-    "Gestión de Carrera": "bg-yellow-50 text-yellow-700",
+    "Consultoría legal": "bg-blue-50 text-blue-700",
+    "Rendimiento y salud": "bg-emerald-50 text-emerald-700",
+    "Gestión de carrera": "bg-amber-50 text-amber-700",
+    "Negocio deportivo": "bg-violet-50 text-violet-700",
   };
-  return colors[category] || "bg-gray-50 text-gray-700";
+  return colors[category] || "bg-slate-100 text-slate-700";
 };
 
 export default function BlogArticles() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <header className="bg-primary text-white py-12 md:py-16">
         <div className="container mx-auto px-4">
           <Link href="/">
@@ -205,40 +203,36 @@ export default function BlogArticles() {
             </Button>
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Centro de Conocimiento
+            Centro de conocimiento Nexus
           </h1>
-          <p className="text-lg text-white/90 max-w-2xl">
-            Artículos especializados sobre derecho deportivo, transferencias, auditoría médica 
-            y gestión de carrera profesional. Información valiosa para futbolistas y clubes.
+          <p className="text-lg text-white/90 max-w-3xl leading-relaxed">
+            Artículos sobre consultoría legal, gestión de carrera, negocio deportivo y decisiones
+            estratégicas que impactan en futbolistas, clubes y proyectos vinculados al ecosistema del fútbol.
           </p>
         </div>
       </header>
 
-      {/* Articles Section */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
               <Link key={post.id} href={`/blog/${post.id}`}>
-                <Card className="border border-border hover:border-primary/50 transition-all duration-300 overflow-hidden hover:shadow-lg flex flex-col cursor-pointer h-full">
-                  {/* Category Badge */}
+                <Card className="border border-slate-200 hover:border-primary/40 transition-all duration-300 overflow-hidden hover:shadow-lg flex flex-col cursor-pointer h-full bg-white">
                   <div className="px-6 pt-6">
-                    <Badge className={`${getCategoryColor(post.category)} hover:opacity-80`}>
+                    <Badge className={`${getCategoryColor(post.category)} hover:opacity-90`}>
                       {post.category}
                     </Badge>
                   </div>
 
-                  {/* Content */}
                   <div className="flex-1 flex flex-col px-6 py-4">
                     <h3 className="text-lg font-bold text-foreground mb-3 leading-snug">
                       {post.title}
                     </h3>
-                    <p className="text-muted-foreground text-sm mb-4 flex-1">
+                    <p className="text-muted-foreground text-sm mb-4 flex-1 leading-relaxed">
                       {post.excerpt}
                     </p>
                   </div>
 
-                  {/* Meta Information */}
                   <div className="px-6 py-4 border-t border-blue-900 bg-[#001F3F]">
                     <div className="space-y-2 text-xs text-blue-100 mb-4">
                       <div className="flex items-center gap-2">

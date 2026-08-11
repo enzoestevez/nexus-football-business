@@ -1,12 +1,11 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 /**
  * Footer Component
- * Design: Minimalismo Legal Corporativo
- * - Información de contacto
- * - Links de navegación
- * - Copyright
- * - Iconos de contacto en blanco
+ * Design: cierre institucional limpio y consistente con la nueva narrativa de consultoría integral.
+ * - Resumen de marca alineado al rediseño
+ * - Enlaces de navegación por anclas y rutas legales reales
+ * - Información de contacto clara para móvil
  */
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -15,16 +14,15 @@ export default function Footer() {
     <footer className="bg-foreground text-white py-12 md:py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {/* About */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Nexus Fútbol & Business</h3>
+            <h3 className="font-bold text-lg mb-4">Nexus Football &amp; Business</h3>
             <p className="text-white/70 text-sm leading-relaxed">
-              Consultoría integral de asesoría legal, técnica y médica para futbolistas 
-              y clubes. Transformamos el talento en carreras profesionales sostenibles.
+              Consultoría integral para futbolistas, clubes y proyectos vinculados al negocio deportivo.
+              Articulamos visión jurídica, lectura técnica, estrategia comercial y experiencias de marca
+              dentro de una misma propuesta.
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="font-bold text-lg mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2 text-sm">
@@ -35,7 +33,12 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#servicios" className="text-white/70 hover:text-white transition-colors">
-                  Servicios
+                  Consultoría
+                </a>
+              </li>
+              <li>
+                <a href="#blog" className="text-white/70 hover:text-white transition-colors">
+                  Blog
                 </a>
               </li>
               <li>
@@ -51,7 +54,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h3 className="font-bold text-lg mb-4">Contacto</h3>
             <div className="space-y-3 text-sm">
@@ -68,21 +70,20 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                <p className="text-white/70">Buenos Aires, Argentina</p>
+                <p className="text-white/70 leading-relaxed">Arenales 3005, Piso 3<br />Ciudad de Buenos Aires</p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-            <p>&copy; {currentYear} Nexus Fútbol & Business. Todos los derechos reservados.</p>
+            <p>&copy; {currentYear} Nexus Football &amp; Business. Todos los derechos reservados.</p>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="/privacy" className="hover:text-white transition-colors">
                 Privacidad
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="/terms" className="hover:text-white transition-colors">
                 Términos
               </a>
             </div>

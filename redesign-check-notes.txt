@@ -1,0 +1,33 @@
+Hallazgos de revisión visual del 2026-08-04:
+
+1. Hero actualizado correctamente con el mensaje "Consultoría integral para el ecosistema del fútbol".
+2. Header consistente con navegación por anclas: Inicio, Consultoría, Perfil, Blog y Contacto.
+3. La sección Services ya refleja los cuatro ejes comerciales: futbolistas, clubes, turismo deportivo y accesorios.
+4. Los CTA por línea de negocio aparecen visibles y diferenciados.
+5. La narrativa general ya está alineada con el posicionamiento de consultora integral.
+6. Falta continuar revisión del resto de la home y validar comportamiento responsive/flujo completo antes de entregar.
+
+7. La ancla de Blog funciona y lleva correctamente a la sección editorial "Ideas, criterio y lectura del negocio deportivo".
+8. La ancla de Contacto funciona y lleva a la sección "Contacta con Nexus".
+9. La sección de contacto ya refleja el nuevo tono comercial y el formulario conserva el flujo esperado.
+10. El título del navegador ya quedó actualizado a "Nexus Fútbol & Business - Consultoría Integral para el Ecosistema del Fútbol".
+11. La ancla de Blog sigue funcionando después de la actualización de metadatos y lleva correctamente al bloque editorial.
+12. La grilla del blog mantiene legibilidad y coherencia visual con el nuevo posicionamiento de la marca.
+13. El acceso desde la home a un artículo individual del blog continúa funcionando correctamente.
+14. El detalle del artículo abre desde la parte superior, manteniendo el comportamiento de lectura cómodo que ya se había ajustado.
+15. El regreso desde el detalle al listado del blog también funciona sin errores.
+16. La página interna /blog ya quedó alineada con el nuevo tono de marca y muestra las categorías actualizadas.
+17. El detalle /blog/1 ahora refleja categoría consultiva, contenido revisado y CTA final consistente con la home.
+18. Los principales flujos probados funcionan: home -> blog, blog -> detalle y detalle -> blog.
+19. La dirección completa 'Arenales 3005, Piso 3, Ciudad de Buenos Aires' aparece en la sección de contacto y también en el footer.
+20. Alberto ya figura como perfil principal y dirección general, con mayor peso visual y textual que Felipe en la sección de trayectoria.
+21. El bloque de clubes mantiene el ajuste legal previo y el sitio no muestra errores de tipado tras las últimas modificaciones.
+22. Revisión tipográfica móvil: la base global usa Montserrat en headings y Lato en cuerpo, con una relación general correcta para marca y legibilidad.
+23. Los formularios ya están bien resueltos para móvil: inputs y textarea usan text-base en pantallas chicas, por lo que no requieren ajuste prioritario.
+24. Los CTA grandes todavía heredan text-sm desde el botón base, incluso en tamaño lg, por lo que pueden verse algo chicos respecto del peso visual del bloque.
+25. Los badges mantienen text-xs y whitespace-nowrap; eso funciona para etiquetas cortas, pero puede tensar el layout cuando el copy institucional se alarga.
+26. Las secciones Hero, Perfil y Contacto usan párrafos base/large que son legibles, aunque hay margen para unificar una regla móvil más consistente entre subtítulos y cuerpos largos.
+27. Ajuste tipográfico fino aplicado: botones lg ahora usan una escala mayor, por lo que los CTA principales ganan presencia visual.
+28. Los badges largos ahora admiten mejor encuadre gracias a padding, leading y wrap controlado, evitando tensión horizontal.
+29. Hero, Services, Profile, Blog y Contact fueron ajustados con cuerpos más equilibrados en móvil mediante tamaños intermedios y leading más amplio.
+30. La revisión visual de la home no mostró roturas evidentes en navegación, Hero ni bloque inicial de servicios tras el ajuste.

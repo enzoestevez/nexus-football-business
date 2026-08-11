@@ -1,0 +1,30 @@
+# Pendientes del rediseño de Nexus Fútbol & Business
+
+- [ ] Actualizar el mensaje principal de la portada para posicionar a Nexus como consultora integral.
+- [ ] Reorganizar la home en una sola página con cuatro ejes comerciales claramente diferenciados.
+- [ ] Redefinir la sección para futbolistas como gestión estratégica con foco en colocación y protección legal.
+- [ ] Redefinir la sección para clubes como gestión estratégica con foco en profesionalización, formación y gestión administrativa.
+- [ ] Incorporar la línea de experiencias en turismo deportivo con un enfoque emocional e inmersivo.
+- [ ] Incorporar la línea de accesorios deportivos vinculada a identidad y colores del club.
+- [ ] Ajustar navegación, llamados a la acción y textos para reflejar el nuevo posicionamiento.
+- [ ] Verificar responsive móvil y consistencia visual antes de entregar.
+- [ ] Guardar checkpoint final del rediseño.
+- [ ] Agregar la dirección completa de Nexus en las áreas de contacto relevantes.
+- [ ] Reforzar la jerarquía visual y textual de Alberto frente a Felipe en la sección de perfil.
+- [ ] Evaluar y recomendar la mejor forma de presentar el currículum dentro del sitio.
+- [ ] Revisar la regla tipográfica móvil del sitio sin aplicar cambios.
+- [ ] Preparar sugerencias tipográficas concretas para aprobación previa del usuario.
+- [ ] Aplicar ajuste tipográfico móvil fino en CTAs principales para reforzar jerarquía.
+- [ ] Ajustar la escala de párrafos introductorios largos en móvil para mejorar ritmo de lectura.
+- [ ] Revisar badges y eyebrows largos para permitir mejor encuadre en pantallas chicas.
+- [ ] Unificar una regla tipográfica móvil consistente en secciones clave del sitio.
+- [ ] Relevar el punto de partida actual de Nexus para diseñar un plan administrativo y comercial.
+- [ ] Estructurar la organización administrativa por áreas de la consultora.
+- [ ] Diseñar un plan de negocio con foco en ingresos tempranos y validación comercial.
+- [ ] Definir prioridades operativas según contactos, jugadores en carpeta, dirigentes y estado del merchandising.
+- [ ] Diseñar la estructura de la planilla operativa para jugadores, clubes, cascos e inversores.
+- [ ] Construir la planilla editable con hojas separadas y campos de seguimiento.
+- [ ] Entregar la planilla lista para usar con instrucciones breves.
+- [ ] Redactar el guion comercial para futbolistas.
+- [ ] Redactar el guion comercial para clubes.
+- [ ] Entregar el documento final con instrucciones breves de uso.

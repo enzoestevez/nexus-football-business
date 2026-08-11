@@ -83,11 +83,11 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Contacta Con Nosotros
+            Contacta con Nexus
           </h2>
-          <p className="text-lg text-muted-foreground">
-            ¿Tienes preguntas o deseas conocer más sobre nuestros servicios? 
-            Estamos aquí para ayudarte a transformar tu carrera profesional.
+          <p className="text-[15px] sm:text-base md:text-lg text-muted-foreground leading-[1.75]">
+            Si quieres conversar sobre consultoría para futbolistas, gestión estratégica para clubes,
+            experiencias en turismo deportivo o accesorios con identidad de club, estamos listos para escucharte.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export default function Contact() {
               <Mail className="w-6 h-6 text-white" />
             </div>
             <h3 className="font-bold text-white mb-2">Email</h3>
-            <p className="text-blue-100 text-sm">
+            <p className="text-blue-100 text-[14px] sm:text-sm leading-[1.7]">
               info@nexusfootballbusiness.com
             </p>
           </Card>
@@ -109,7 +109,7 @@ export default function Contact() {
               <Phone className="w-6 h-6 text-white" />
             </div>
             <h3 className="font-bold text-white mb-2">Teléfono</h3>
-            <div className="text-blue-100 text-sm space-y-1">
+            <div className="text-blue-100 text-[14px] sm:text-sm space-y-1 leading-[1.7]">
               <p><span className="font-semibold">Dr. Alberto José Estevez</span></p>
               <p>+54 9 1133128468</p>
               <p className="pt-2"><span className="font-semibold">Lic. Felipe Pietroniro</span></p>
@@ -123,8 +123,9 @@ export default function Contact() {
               <MapPin className="w-6 h-6 text-white" />
             </div>
             <h3 className="font-bold text-white mb-2">Ubicación</h3>
-            <p className="text-blue-100 text-sm">
-              Buenos Aires, Argentina
+            <p className="text-blue-100 text-[14px] sm:text-sm leading-[1.7]">
+              Arenales 3005, Piso 3<br />
+              Ciudad de Buenos Aires
             </p>
           </Card>
         </div>
@@ -189,7 +190,7 @@ export default function Contact() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Cuéntanos sobre tu situación y cómo podemos ayudarte..."
+                placeholder="Cuéntanos qué necesitas, qué proyecto tienes en marcha o qué línea de negocio te interesa desarrollar..."
                 className="bg-white text-foreground border-white focus:ring-blue-300 min-h-32 resize-none"
                 required
               />
@@ -203,7 +204,7 @@ export default function Contact() {
                 onChange={(e) => setConsent(e.target.checked)}
                 className="mt-1 w-4 h-4 rounded border-white bg-white cursor-pointer"
               />
-              <label htmlFor="consent" className="text-xs text-blue-100 cursor-pointer">
+              <label htmlFor="consent" className="text-[11px] sm:text-xs text-blue-100 cursor-pointer leading-[1.7]">
                 Acepto la{" "}
                 <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 underline">
                   Política de Privacidad
@@ -226,8 +227,8 @@ export default function Contact() {
               </Button>
             </div>
 
-            <p className="text-xs text-blue-100 text-center">
-              Respetamos tu privacidad. Tu información será tratada de forma confidencial y enviada de forma segura.
+            <p className="text-[11px] sm:text-xs text-blue-100 text-center leading-[1.7]">
+              Respetamos tu privacidad. Tu información será tratada de forma confidencial y utilizada únicamente para responder tu consulta.
             </p>
           </form>
         </Card>
