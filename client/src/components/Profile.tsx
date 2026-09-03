@@ -63,7 +63,7 @@ const professionals: Professional[] = [
   {
     name: "Daniel Omar García",
     roleLabel: "Dirección técnica",
-    specialty: "Director Técnico con trayectoria en el fútbol de Pergamino y la región",
+    specialty: "Director técnico profesional y Scouting",
     photo: "/daniel-omar-garcia.jpg",
     fullInfo: [
       "Director Técnico con una extensa trayectoria en el fútbol de Pergamino y la región, al frente de clubes y selecciones.",
