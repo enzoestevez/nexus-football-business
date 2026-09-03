@@ -23,7 +23,7 @@ const professionals: Professional[] = [
   {
     name: "Dr. Alberto José Estevez",
     roleLabel: "Perfil principal · Dirección general",
-    specialty: "Abogado, Director Técnico, ex futbolista y consultor deportivo",
+    specialty: "Abogado y consultor deportivo",
     photo: "/dr-alberto.jpg",
     fullInfo: [
       "Vivió el fútbol desde adentro: comenzó su recorrido en Ferro Carril Oeste, pasó por pensión y construyó una mirada real sobre las exigencias de formación, competencia y desarrollo profesional.",
@@ -72,6 +72,18 @@ const professionals: Professional[] = [
       "Se destaca por su compromiso con la formación y el desarrollo de jugadores.",
     ],
     expertise: "dirección técnica, gestión de planteles, formación de jugadores y desarrollo de campañas competitivas",
+  },
+  {
+    name: "Julián Schepeck",
+    roleLabel: "Psicología Deportiva",
+    specialty: "Psicólogo Social, Licenciado en Educación y especialista en Psicología Deportiva",
+    photo: "/julian-schepeck.jpg",
+    fullInfo: [
+      "Psicólogo Social, Licenciado en Educación y especialista en Psicología Deportiva, con formación en Coaching Deportivo, Coaching Ontológico y Gestión Deportiva.",
+      "Acompaña a futbolistas juveniles, amateurs y profesionales en el desarrollo de herramientas mentales y emocionales para afrontar la presión, ansiedad, frustración, lesiones, competencia y diferentes etapas de su carrera.",
+      "Cuenta con experiencia trabajando con jugadores de Argentina y del exterior, familias, clubes y proyectos formativos. En Nexus aporta una mirada psicológica y educativa enfocada en fortalecer la confianza, el autoconocimiento y la estabilidad emocional, promoviendo el desarrollo integral del futbolista dentro y fuera de la cancha.",
+    ],
+    expertise: "psicología deportiva, entrenamiento mental, gestión emocional, acompañamiento a futbolistas, trabajo con familias y desarrollo integral",
   },
 ];
 
@@ -191,7 +203,7 @@ export default function Profile() {
           <ProfessionalCard professional={featuredProfessional} />
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-14">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 mb-14">
           {otherProfessionals.map((professional, index) => (
             <ProfessionalCard key={index} professional={professional} />
           ))}
