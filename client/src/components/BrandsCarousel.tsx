@@ -16,7 +16,6 @@ type Brand = {
 };
 
 const BRANDS: Brand[] = [
-  { name: "Lyon", logo: "/brands/lyon.png", height: 62 },
   { name: "Válido", logo: "/brands/valido.png", height: 58 },
   { name: "Valle de La Puerta", logo: "/brands/valle-de-la-puerta.png", height: 46 },
   { name: "Terra Andina", logo: "/brands/terra-andina.png", height: 62 },
@@ -27,7 +26,7 @@ const SHOW_TITLE = true;
 /** true = logos en gris que toman color al pasar el mouse */
 const GRAYSCALE = false;
 /** repeticiones por mitad: la pista tiene que ser más ancha que la pantalla */
-const COPIES = 4;
+const COPIES = 6;
 
 export default function BrandsCarousel() {
   const half = Array.from({ length: COPIES }, () => BRANDS).flat();

@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   width: max-content;
-  animation: nx-brands-slide 40s linear infinite;
+  animation: nx-brands-slide 48s linear infinite;
 }
 
 /* la pista es el set duplicado: al correr media pista el loop es invisible */
