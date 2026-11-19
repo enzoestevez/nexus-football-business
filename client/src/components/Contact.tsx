@@ -86,8 +86,8 @@ export default function Contact() {
             Contacta con Nexus
           </h2>
           <p className="text-[15px] sm:text-base md:text-lg text-muted-foreground leading-[1.75]">
-            Si quieres conversar sobre consultoría para futbolistas, gestión estratégica para clubes,
-            experiencias en turismo deportivo o accesorios con identidad de club, estamos listos para escucharte.
+            Si quieres conversar sobre consultoría para futbolistas, gestión estratégica para clubes
+            o experiencias en turismo deportivo, estamos listos para escucharte.
           </p>
         </div>
 

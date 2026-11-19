@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 /**
  * Hero Section
  * Design: apertura editorial premium con foco consultivo y lectura nítida en móvil.
- * - Mensaje principal amplio para abarcar consultoría, experiencias y accesorios
+ * - Mensaje principal amplio para abarcar consultoría y experiencias
  * - CTA dobles orientados a exploración y contacto
  * - Indicadores de confianza alineados al diferencial multidisciplinario
  */
@@ -36,8 +36,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-[15px] sm:text-lg md:text-xl text-white/88 mb-7 sm:mb-9 leading-[1.75] max-w-2xl">
-            Reunimos gestión estratégica para futbolistas y clubes, experiencias en turismo deportivo
-            y accesorios con identidad de club dentro de una misma propuesta comercial.
+            Reunimos gestión estratégica para futbolistas y clubes y experiencias en turismo
+            deportivo dentro de una misma propuesta comercial.
           </p>
 
           <p className="text-[15px] sm:text-base text-white/72 mb-8 sm:mb-10 leading-[1.75] max-w-2xl">

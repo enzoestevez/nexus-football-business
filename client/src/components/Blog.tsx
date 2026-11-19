@@ -5,7 +5,7 @@ import { Link } from "wouter";
 
 /**
  * Blog Section
- * Design: bloque editorial institucional conectado con los cuatro ejes de negocio.
+ * Design: bloque editorial institucional conectado con los tres ejes de negocio.
  * - Mantiene formato de tarjetas y lectura rápida en móvil
  * - Amplía el tono para cubrir futbolistas, clubes y experiencias deportivas
  * - Conserva la navegación a artículos individuales

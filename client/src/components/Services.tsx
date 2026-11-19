@@ -6,11 +6,8 @@ import {
   GraduationCap,
   Landmark,
   MapPin,
-  Palette,
   Plane,
   Scale,
-  Shield,
-  ShoppingBag,
   Users,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -18,7 +15,7 @@ import type { LucideIcon } from "lucide-react";
 /**
  * Services Section
  * Design: Consultoría deportiva premium, clara y orientada a conversión móvil.
- * - Cuatro ejes de negocio visibles sin depender de hover
+ * - Tres ejes de negocio visibles sin depender de hover
  * - Bloques editoriales con jerarquía fuerte y CTA directo
  * - Lectura cómoda en teléfono y separación nítida entre líneas comerciales
  */
@@ -129,35 +126,6 @@ const serviceLines: ServiceLine[] = [
       },
     ],
   },
-  {
-    id: "accesorios",
-    eyebrow: "Identidad de marca",
-    title: "Accesorios con los colores de tu club favorito",
-    summary:
-      "Productos pensados para expresar pertenencia. Diseño, personalización y estética deportiva aplicados a accesorios con impronta de club.",
-    description:
-      "La línea de accesorios combina utilidad, identidad visual y vínculo emocional con el escudo y los colores que cada hincha siente propios.",
-    cta: "Solicitar catálogo",
-    icon: ShoppingBag,
-    gradient: "from-[#111827] via-[#183B63] to-[#2563EB]",
-    details: [
-      {
-        icon: ShoppingBag,
-        title: "Productos con identidad",
-        text: "Accesorios desarrollados para destacar colores, símbolos y sentido de pertenencia con terminación cuidada y perfil premium.",
-      },
-      {
-        icon: Palette,
-        title: "Personalización visual",
-        text: "Adaptación cromática, acabados y composición estética para que cada pieza dialogue con el universo visual del club elegido.",
-      },
-      {
-        icon: Shield,
-        title: "Calidad y presentación",
-        text: "Selección de materiales y propuesta comercial pensadas para que el producto funcione como accesorio y también como objeto de identificación.",
-      },
-    ],
-  },
 ];
 
 function scrollToContact() {
@@ -174,7 +142,7 @@ export default function Services() {
             Consultoría integral
           </p>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Cuatro líneas de negocio, una misma lógica estratégica.
+            Tres líneas de negocio, una misma lógica estratégica.
           </h2>
           <p className="text-[15px] sm:text-base md:text-lg text-slate-600 leading-[1.75] max-w-3xl">
             Nexus Fútbol &amp; Business organiza su propuesta en ejes claros para que cada cliente
